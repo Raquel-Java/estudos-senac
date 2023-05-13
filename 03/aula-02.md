@@ -27,7 +27,7 @@ A classe de nome MyStateful extends StatefulWidget e sobrescreve o metodo create
 Agora temos no nosso cenário outra classe de nome SouStateful que extends State generico que retorna uma classe, porém iremos colocar nesse State a classe MyStateful para ser retornada essa classe MyStateful e que possui a sobrescrita do método build que é responsável pela criação da nossa aplicação, sendo assim como ela sempre retorna o stado da classe anterior sempre que eu setar um novo estado ele chama o metodo build reconstroi a aplicação e retorna o novo estado da classe MyStateful.
 
 
-![stateful.png](/stateful.png){.align-center}
+![stateful.png](/imagens/stateful.png){.align-center}
 
   
 # Build Context
@@ -45,10 +45,11 @@ Os widgets estão em uma árvore, distribuídos em um hierarquia de pais e filho
 
 https://blog.flutterando.com.br/entenda-o-buildcontext-do-flutter-895e4d01054e#:~:text=O%20que%20%C3%A9%20o%20BuildContext,localizar%20cada%20widget%20nessa%20%C3%A1rvore.
 
-![buil.png](/buil.png){.align-center}
+![buil.png](/imagens/buil.png){.align-center}
 
 ##### 
 Essa relação sempre se dá de baixo para cima.
 
-![widgwtestructure.png](/widgwtestructure.png){.align-center}
+![widgwtestructure.png](/imagens/widgwtestructure.png){.align-center}
+
 
